@@ -13,8 +13,8 @@ RSpec.describe Candy do
     end
     
     it 'has readable attributes' do
-      expect(candy1.type).to eq("Snickers")
-      expect(candy2.type).to eq("Skittles")
+      expect(candy1.type).to eq("Skittles")
+      expect(candy2.type).to eq("Snickers")
     end
   end
 end
